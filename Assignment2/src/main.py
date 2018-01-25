@@ -1,7 +1,7 @@
 
 
-DATA_DIR = "/Users/herbert/Code/ME592X/Assignment_1/data/"
-OUTPUT_DIR = "/Users/herbert/Code/ME592X/Assignment_1/output/"
+DATA_DIR = "/Users/herbert/Code/ME592X/Group_REPO/data/"
+DEPS_DIR = "/Users/herbert/Code/ME592X/Group_REPO/deps/"
 
 
 def main():
