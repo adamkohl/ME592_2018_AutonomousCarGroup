@@ -13,11 +13,11 @@ def main():
     # ------------------------------------------------------------------------------------------------------------------
     print("***** Importing and Undistorting/Demoscaicing Raw Images")
     image_names = []
-    image_names.append(['mono_left', 'mono_left'])
+    # image_names.append(['mono_left', 'mono_left'])
     # image_names.append(['mono_rear', 'mono_rear'])
     # image_names.append(['mono_right', 'mono_right'])
     # image_names.append(['stereo/centre', 'stereo'])
-    # image_names.append(['stereo/left', 'stereo'])
+    image_names.append(['stereo/left', 'stereo'])
     # image_names.append(['stereo/right', 'stereo'])
     for name in image_names:
         analyzer.undistortImages(name[0], name[1])
@@ -34,8 +34,8 @@ def main():
     print("***** Generating 3D Point Cloud")
     ptcloud_names = []
     ptcloud_names.append(['lms_front', 'gps/ins.csv'])
-    ptcloud_names.append(['lms_rear', 'gps/ins.csv'])
-    ptcloud_names.append(['ldmrs', 'gps/ins.csv'])
+    # ptcloud_names.append(['lms_rear', 'gps/ins.csv'])
+    # ptcloud_names.append(['ldmrs', 'gps/ins.csv'])
     # for name in ptcloud_names:
     #     analyzer.buildLidarPointCloud(name[0], name[1])
 
